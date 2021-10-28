@@ -1,0 +1,59 @@
+
+*{margin: 0; padding: 0 }
+
+h1{
+    text-align: center;
+    color: #51260e;
+    margin-top: 2em;
+}
+.card-refeicoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 0.8em #51260e;
+}
+.img-refeicao{
+    width: 280px;
+    height: 200px;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 0 1em ;
+    padding: 1em 0;
+    font-size: 1.5em;
+}
+nav p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+nav button{
+    padding: 0.4em 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color: #814f34;
+    color: white;
+    font-size: 0.6em;
+}
+nav button:active{
+    background-color: #51260e;
+}
+.preco{
+    font-size: 0.85em;
+}
+
+@media screen and (max-device-width : 480px) {
+    nav{
+        grid-template-columns: 0.4fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    }
+    h1{
+        border: 1px solid red;
+        font-size: 20px;
+    }
+    h2{
+        border: 1px soli blue;
+    }
+    
+}
