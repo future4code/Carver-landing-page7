@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*SCROLL*/
+.links{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	display: flex;
+}
+
+.links label{
+	padding: 10px 0;
+	flex-grow: 1;
+	cursor: pointer;
+	transition: all .4s;
+	text-align: center;
+	font-family: 'Arial';
+    font-size: 1.5em;
+	color: #51260e;
+    
+
+}
+.links label:hover{
+	background-color:rgba(172, 158, 143, 0.667);
+}
+
+.scroll{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.sections{
+
+	transition:  all .4s;
+}
+
+input{
+	display: none;
+}
+.bloco{
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+}
+#rd_padaria-e-frios:checked ~ .sections{
+	margin-top: -100vh;
+}
+#rd_congelados:checked ~ .sections{
+	margin-top: -200vh;
+}
+
+#rd_ruby:checked ~ .sections{
+	margin-top: -300vh;
+}
+
+#rd_angular:checked ~ .sections{
+	margin-top: -400vh;
+}
+/*FIM DO SCROLL*/
+
+/*BACKGROUND COLORS SCROLL*/
+#alimentos-basicos{
+	background-color: white;
+}
+
+#padaria-e-frios{
+	background-color: white;
+}
+#congelados{
+	background-color: white
+}
+#ruby{
+	background-color: #aaa;
+}
+
+
+#angular{
+	background-color: #414950;
+}
+
+/*FIM*/
+
+/*Alimentos Basicos*/
+
+.nav_item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 1em;
+    font-size: 1.5em;
+    
+
+}
+.card_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 0.8em #51260e;
+}
+
+.p_item{
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+.valor{
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+.img_item{
+    width: 40%;
+    height: 80%;
+    
+}
+.button_item{
+    padding: 0.4em 4em;
+    margin-bottom: 1em;
+    background-color: #814f34;
+    color: white;
+    font-size: 0.6em;
+}
+.button_item :hover{
+    background-color:rgba(172, 158, 143, 0.667);
+}
+.button_item :active{
+    color: #51260e;
+}
+.img_item1{
+    width: 35%;
+    height: 80%;
+}
+.img_item2{
+    width: 40%;
+    height: 55%;
+}
