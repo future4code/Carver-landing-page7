@@ -36,6 +36,10 @@ nav button{
     color: white;
     font-size: 0.6em;
 }
+nav button:hover{
+    background-color: #ad4c17;
+}
+
 nav button:active{
     background-color: #51260e;
 }
@@ -43,17 +47,37 @@ nav button:active{
     font-size: 0.85em;
 }
 
+/* KITS */
+
+.kist{
+    display: flex;
+    flex-direction: row;
+    margin: 0 1em ;
+    padding: 2em 0;
+    font-size: 10em;
+}
+
+.kits-refeicoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0 0.8em #51260e;
+
+}
+
+
+
+/* RESPONSIVIDADE */
 @media screen and (max-device-width : 480px) {
     nav{
         grid-template-columns: 0.4fr;
         grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
     }
     h1{
-        border: 1px solid red;
         font-size: 20px;
     }
     h2{
-        border: 1px soli blue;
+        font-size: 17px;
     }
     
 }
