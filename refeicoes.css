@@ -51,8 +51,9 @@ nav button:active{
 /* RESPONSIVIDADE */
 @media screen and (max-device-width : 480px) {
     nav{
-        grid-template-columns: 0.4fr;
+        grid-template-columns: 0.5fr;
         grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        
     }
     h1{
         font-size: 20px;
