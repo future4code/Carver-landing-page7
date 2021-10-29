@@ -6,55 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="refeicoes.css">
+    <link rel="stylesheet" type="text/css" href="novo.css">
 </head>
 
 <body>
 
-    <header>
+    <nav class="links">
+        <label for="rd_pratosExecutivos">PRATOS EXECUTIVOS</label>
+        <label for="rd_massas">MASSAS</label>
+        <label for="rd_caldos">CALDOS</label>
+        <label for="rd_doces">DOCES</label>
+        <label for="rd_kits">KITS</label>
+    </nav>
 
-    </header>
+    <div class="scroll">
 
-    <main>
-        <h1>REFEIÇÕES</h1>
-        <h2>Pratos Executivos</h2>
+        <input type="radio" name="grupo" id="rd_pratosExecutivos" checked="true">
+        <input type="radio" name="grupo" id="rd_massas">
+        <input type="radio" name="grupo" id="rd_caldos">
+        <input type="radio" name="grupo" id="rd_doces">
+        <input type="radio" name="grupo" id="rd_kits">
 
-        <nav>
-            <div class="card-refeicoes">
-                <img src="https://img.cybercook.com.br/receitas/940/strogonoff-aos-4-queijos-2.jpeg"
-                    class="img-refeicao">
-                <p>Strogonoff de frango</p>
-                <p class="preco"> 200g R$15,00</p>
-                <button>Comprar</button>
-            </div>
+        <section class="sections">
 
-            <div class="card-refeicoes">
-                <img src="https://ogimg.infoglobo.com.br/rio/bairros/24032758-07d-15c/FT1086A/file-mignon-com-fettuccine-ao-molho-pesto-artesanal-Carmelo.jpg"
-                    alt="File mingon" class="img-refeicao">
-                <p>Filé Migno com Talharim</p>
-                <p class="preco">200g R$20,00</p>
-                <button>Comprar</button>
-            </div>
+            <h2>Pratos Executivos</h2>
+            <section class="bloco" id="pratosExecutivos">
+                <div class="card-refeicoes">
+                    <img src="https://img.cybercook.com.br/receitas/940/strogonoff-aos-4-queijos-2.jpeg"
+                        class="img-refeicao">
+                    <p>Strogonoff de frango</p>
+                    <p class="preco"> 200g R$15,00</p>
+                    <button>Comprar</button>
+                </div>
+    
+                <div class="card-refeicoes">
+                    <img src="https://ogimg.infoglobo.com.br/rio/bairros/24032758-07d-15c/FT1086A/file-mignon-com-fettuccine-ao-molho-pesto-artesanal-Carmelo.jpg"
+                        alt="File mingon" class="img-refeicao">
+                    <p>Filé Migno com Talharim</p>
+                    <p class="preco">200g R$20,00</p>
+                    <button>Comprar</button>
+                </div>
+    
+                <div class="card-refeicoes">
+                    <img src="https://assets.instabuy.com.br/ib.item.image.big/b-af1a2066d77041e0b705f45e0d3db703.jpeg"
+                        alt="Frango xadrez" class="img-refeicao">
+                    <p>Frango Xadrez</p>
+                    <p class="preco">200g R$20,00</p>
+                    <button>Comprar</button>
+                </div>
+    
+                <div class="card-refeicoes">
+                    <img src="https://img.itdg.com.br/tdg/images/recipes/000/043/297/324510/324510_original.jpg?w=1200"
+                        alt="Posta de Salmão" class="img-refeicao">
+                    <p>Posta de Salmão Assado</p>
+                    <p class="preco">200g R$25,00</p>
+                    <button>Comprar</button>
+                </div>
+            </section>
 
-            <div class="card-refeicoes">
-                <img src="https://assets.instabuy.com.br/ib.item.image.big/b-af1a2066d77041e0b705f45e0d3db703.jpeg"
-                    alt="Frango xadrez" class="img-refeicao">
-                <p>Frango Xadrez</p>
-                <p class="preco">200g R$20,00</p>
-                <button>Comprar</button>
-            </div>
-
-            <div class="card-refeicoes">
-                <img src="https://img.itdg.com.br/tdg/images/recipes/000/043/297/324510/324510_original.jpg?w=1200"
-                    alt="Posta de Salmão" class="img-refeicao">
-                <p>Posta de Salmão Assado</p>
-                <p class="preco">200g R$25,00</p>
-                <button>Comprar</button>
-            </div>
-        </nav>
-        <h2>Massas</h2>
-
-        <nav>
+            <h2>Massas</h2>
+        <section class="bloco" id="massas">
             <div class="card-refeicoes">
                 <img src="https://assets.instabuy.com.br/ib.item.image.large/l-af6f6aa471874973aead77fccb4feecd.jpeg"
                     alt="Lasanha" class="img-refeicao">
@@ -86,10 +97,10 @@
                 <p class="preco">200g R$21,99</p>
                 <button>Comprar</button>
             </div>
-        </nav>
+        </section>
 
         <h2>Caldos</h2>
-        <nav>
+        <section class="bloco" id="caldos">
             <div class="card-refeicoes">
                 <img src="https://www.agoramt.com.br/wp-content/uploads/2015/06/CALDO-DE-MILHO.jpg"
                     alt="Caldo de Milho com Frango" class="img-refeicao">
@@ -122,11 +133,10 @@
                 <button>Comprar</button>
             </div>
 
-        </nav>
+        </section>
 
         <h2>Doces</h2>
-        <nav>
-
+        <section class="bloco" id="doces">
             <div class="card-refeicoes">
                 <img src="https://www.sabornamesa.com.br/media/k2/items/cache/2660be2b2df02c41fc17abdbfc676d66_XL.jpg"
                     alt="Pudim de Leite" class="img-refeicao">
@@ -158,12 +168,10 @@
                 <p class="preco">100g R$9,99</p>
                 <button>Comprar</button>
             </div>
-
-        </nav>
+        </section>
 
         <h2>Kits</h2>
-
-        <nav>
+        <section class="bloco" id="kits">
             <div class="card-refeicoes">
                 <img src="https://cdn.octoshop.com.br/lojas/marmitasdoze/uploads_produto/kit-5-dias-almoco-e-jantar-tradicional-60424a1168b04.jpg"
                     alt="Kit 5 dias" class="img-refeicao">
@@ -177,13 +185,16 @@
                 <p>Kit (7 dias)</p>
                 <p> R$400,00</p><button>Comprar</button>
             </div>
-        </nav>
 
-    </main>
+        </section>
 
-    <footer>
+    </section>
 
-    </footer>
+        </main>
+
+        <footer>
+
+        </footer>
 
 </body>
 
