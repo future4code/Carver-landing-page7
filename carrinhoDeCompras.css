@@ -88,4 +88,30 @@ tr button:active{
 
 }
 
+@media screen and (max-device-width : 480px){
+    
+    h1{
+        font-size: 14px;
+    }
+    table{
+        font-size: 9px;
+    }
+    
+    table tr td{
+        font-size: 12px;
+    }
+
+.botao-finalizar-compras{
+    margin-left: 60vw;
+    padding: 10px 25px;
+    font-size: 10px;
+}
+.botao-continuar-comprando{
+    margin-left: 5vw;
+    padding: 10px 25px;
+    font-size: 10px;
+}
+
+}
+    
 
