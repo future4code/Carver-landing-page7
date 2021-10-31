@@ -34,9 +34,6 @@ header .logo {
 	margin-top: auto;
 }
 
-
-
-
 h1 {
 	font-size: 40px;
 	text-transform: uppercase;
@@ -167,7 +164,7 @@ top: 48px;
 
 /*SCROLL*/
 .links{
-    width: 100%;
+    width: 98.5vw;
     height: 50px;
     display: flex;
     border: 1px solid #cea67e ;
@@ -182,7 +179,7 @@ top: 48px;
     transition: all .4s;
     text-align: center;
     font-family: 'Arial';
-    font-size: 130%;
+    font-size: 25px;
     color: #51260e;
  
 }
@@ -192,7 +189,7 @@ top: 48px;
 
 .scroll{
 	display: flex;
-	width: 100vw;
+	width: 99vw;
 	height: 100vh;
 	overflow: hidden;
 }
@@ -206,7 +203,7 @@ input{
 	display: none;
 }
 .bloco{
-	width: 100vw;
+	width: 99vw;
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
@@ -296,4 +293,52 @@ input{
     width: 40%;
     height: 55%;
 }
+.img_item3{
+    width: 27%;
+    height: 55%;
+}
 
+/* FOOTER */
+footer {
+	width: 99vw;
+	display: flex;
+	margin-top: 5vh;
+	border-top: 1px solid #5e2e15;
+  }
+   
+  .footer-titulo h1 {
+	font-size: 20vw;
+	display: flex;
+  }
+  
+  footer .boxs {
+	width: 35vw;
+	padding: 15px;
+  }
+  
+  
+  .boxs h2 {
+  color: #5e2e15;
+  margin-bottom: 1vw;
+  }
+  
+  .boxs ul li {
+	margin: 8px 0px;
+	list-style: none;
+	/* margin-left: -3vw; */
+  }
+  
+  .boxs ul li a {
+	color:black;
+	text-decoration: none;
+  }
+  
+  .img-certificado{
+	  width: 5vw;
+	  height: 5vh;
+  }
+  
+  #certificados{
+	margin-left: 1.5vw;
+  
+  }
