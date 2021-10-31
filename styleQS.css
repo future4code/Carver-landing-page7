@@ -180,7 +180,7 @@ header {
 }
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 90%;
     height: 100%;
     justify-content: space-between;
@@ -198,10 +198,11 @@ header {
     text-align: center;
     align-items: center;
     
+    
 }
 
 .card_img{
-    width: 80%;
+    width: 50%;
     height: 70%;
 
 }
@@ -209,11 +210,13 @@ header {
     align-items: center;
     padding: 2%;
     color: #3b1a08;
+    
 }
 .card_p{
     width: 90%;
     height: 70%; 
     text-align: center;
+    font-size: 110%;
 }
 .div_apresentacao{
     margin-top: 2%;
@@ -231,49 +234,73 @@ header {
     font-size: 20px;
 }
 
+/* FOOTER */
 footer {
-    width: 100%;
-    min-height: 250px;
-    background: rgba(129, 64, 64, 0.363);
-    display: flex;
-  }
-  
-  .footer-titulo h1 {
-    font-size: 15vw;
+  width: 98.7vw;
   display: flex;
+  margin-top: 15vh;
+  border-top: 1px solid #5e2e15;
+}
+ 
+.footer-titulo h1 {
+  font-size: 20vw;
+  display: flex;
+}
+
+footer .boxs {
+  width: 35vw;
+  padding: 15px;
+}
+
+
+.boxs h2 {
+color: #5e2e15;
+margin-bottom: 1vw;
+}
+
+.boxs ul li {
+  margin: 10px 0px;
+  list-style: none;
+}
+
+.boxs ul li a {
+  color:black;
+  text-decoration: none;
+}
+
+.img-certificado{
+    width: 5vw;
+    height: 5vh;
+}
+
+#certificados{
+  margin-left: 1.7vw;
+
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-device-width : 480px){
+  
+  h1{
+      font-size: 14px;
+  }
+  table{
+      font-size: 9px;
   }
   
-  footer .boxs {
-    width: 320px;
-    min-height: 150px;
-    padding: 20px;
+  table tr td{
+      font-size: 12px;
   }
-  
-  footer .boxs:nth-child(4) {
-    width: 400px;
-  }
-  
-  .boxs h2 {
-  color: maroon;
-  margin-bottom: 20px;
-  }
-  
-  .boxs ul li {
-    margin: 10px 0px;
-    list-style: none;
-  }
-  
-  .boxs ul li a {
-    color: maroon;
-    text-decoration: none;
-  }
-  
-  .boxs ul li a:hover {
-    color: maroon;
-  }
-  
-  .boxs p {
-    color: maroon;
-    text-align: justify;
-  }
-  
+
+.botao-finalizar-compras{
+  margin-left: 60vw;
+  padding: 10px 25px;
+  font-size: 10px;
+}
+.botao-continuar-comprando{
+  margin-left: 5vw;
+  padding: 10px 25px;
+  font-size: 10px;
+}
+
+}

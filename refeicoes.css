@@ -175,6 +175,7 @@ header {
     display: flex;
     border: 1px solid #cea67e ;
     align-items: center;
+    margin-top: 5%;
     
 }
 
@@ -187,6 +188,7 @@ header {
     font-family: 'Arial';
     font-size: 100%;
     color: #51260e;
+    
  
 }
  .links label:hover{
@@ -196,7 +198,7 @@ header {
  .scroll{
     display: flex;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
     /* align-items: center; */
 }
@@ -222,6 +224,7 @@ header {
     margin-left: 3em;
 
 }
+
 #massas{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -256,28 +259,28 @@ header {
  #kits{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 10px;
     margin: 1em 1em ;
     padding: 1em 0;
     font-size: 1.5em;
     margin-left: 3em;
 }
 #rd_pratosExecutivos:checked ~ .sections{
-    margin-top: +10vh;
+    margin-top: 15vh;
 }
  #rd_massas:checked ~ .sections{
-    margin-top: -65vh;
+    margin-top: -69vh;
 }
  #rd_caldos:checked ~ .sections{
-    margin-top: -135vh;
+    margin-top: -145vh;
 }
  
  #rd_doces:checked ~ .sections{
-    margin-top: -215vh;
+    margin-top: -220vh;
 }
  
  #rd_kits:checked ~ .sections{
-    margin-top: -290vh;
+    margin-top: -308vh;
 }
 /* HOME */
 h1 {
