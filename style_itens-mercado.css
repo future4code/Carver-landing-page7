@@ -29,7 +29,9 @@ header .logo {
 	top: 0;
  position: absolute;
 }
-
+.img_logo{
+	width: 200%;
+  }
 #list-container {
 	margin-top: auto;
 }
@@ -152,13 +154,13 @@ top: 48px;
 }
 
 #toogle:checked + .checkbox {
-	background-color: maroon;
-}
-
-#toggle:checked ~ .menu {
-	box-shadow: 0px 0px 0px 100vmax maroon;
+	background-color:  #e79265;
+  }
+  
+  #toggle:checked ~ .menu {
+	box-shadow: 0px 0px 0px 100vmax #e79265;
 	z-index: 1;
-}
+  }
 
 #toggle:checked ~.menu-itens {
 	visibility: visible;
@@ -167,11 +169,13 @@ top: 48px;
 
 /*SCROLL*/
 .links{
-    width: 100%;
-    height: 50px;
+    width: 96%;
+    height: 100px;
     display: flex;
     border: 1px solid #cea67e ;
     align-items: center;
+	margin-top: 12%;
+	margin-left: 2%;
     
 }
 
@@ -182,7 +186,7 @@ top: 48px;
     transition: all .4s;
     text-align: center;
     font-family: 'Arial';
-    font-size: 130%;
+    font-size: 150%;
     color: #51260e;
  
 }
@@ -249,10 +253,9 @@ input{
 .nav_item{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin-top: 1em;
+    gap: 1px;
+    margin-top: 0;
     font-size: 1.5em;
-    
 
 }
 .card_item{
@@ -263,7 +266,7 @@ input{
 }
 
 .p_item{
-    margin-top: 5px;
+    margin-top: 2px;
     font-size: 0.8em;
 }
 .valor{
@@ -273,6 +276,7 @@ input{
 .img_item{
     width: 40%;
     height: 80%;
+	margin-top: 5%;
     
 }
 .button_item{
@@ -291,9 +295,85 @@ input{
 .img_item1{
     width: 35%;
     height: 80%;
+	margin-top: 5%;
 }
 .img_item2{
     width: 40%;
     height: 55%;
+	margin-top: 5%;
+}
+.img_item3{
+	margin-top: 5%;
+	width: 28%;
+    height: 50%
+}
+/* FOOTER */
+footer {
+    width: 98.7vw;
+    display: flex;
+    margin-top: 1vh;
+    border-top: 1px solid #5e2e15;
+  }
+   
+.footer-titulo h1 {
+    font-size: 20vw;
+    display: flex;
+  }
+  
+footer .boxs {
+    width: 35vw;
+    padding: 15px;
+  }
+  
+  
+.boxs h2 {
+  color: #5e2e15;
+  margin-bottom: 1vw;
+  }
+  
+.boxs ul li {
+    margin: 10px 0px;
+    list-style: none;
+  }
+  
+  .boxs ul li a {
+    color:black;
+    text-decoration: none;
+  }
+  
+  .img-certificado{
+      width: 5vw;
+      height: 5vh;
+  }
+
+  #certificados{
+    margin-left: 1.7vw;
+
+  }
+
+/* RESPONSIVIDADE */
+@media screen and (max-device-width : 480px){
+    
+    h1{
+        font-size: 14px;
+    }
+    table{
+        font-size: 9px;
+    }
+    
+    table tr td{
+        font-size: 12px;
+    }
+
+.botao-finalizar-compras{
+    margin-left: 60vw;
+    padding: 10px 25px;
+    font-size: 10px;
+}
+.botao-continuar-comprando{
+    margin-left: 5vw;
+    padding: 10px 25px;
+    font-size: 10px;
 }
 
+}
