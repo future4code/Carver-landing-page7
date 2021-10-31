@@ -29,6 +29,11 @@ header {
     top: 0;
    position: absolute;
   }
+  .img_logo{
+    width: 5vw;
+    margin-top: 20%;
+    
+  }
   
   #list-container {
     margin-top: auto;
@@ -165,10 +170,6 @@ header {
     opacity: 1;
   }
 
-.h1_header{
-    background-color: red;
-    padding: 3%;
-}
 .h2_div-main{
     color: #51260e;
     text-shadow: 1px 0.5px #876a59 ;
@@ -184,8 +185,7 @@ header {
     height: 100%;
     justify-content: space-between;
     margin-left:5% ;
-    border: 2px solid red;
-     
+         
 
 }
 .card_container{
@@ -218,7 +218,7 @@ header {
 .div_apresentacao{
     margin-top: 2%;
     padding: 2em;
-    background-color: #dfc9bd ;
+    background-color: #f3f2f1b7 ;
     text-align: center;
 }
 .h3_div-apresentacao{

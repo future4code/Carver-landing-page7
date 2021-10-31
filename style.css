@@ -49,6 +49,9 @@ header .logo {
   top: 0;
  position: absolute;
 }
+.img_logo{
+  width: 250%;
+}
 
 #list-container {
   margin-top: auto;
@@ -172,11 +175,11 @@ top: 48px;
 }
 
 #toogle:checked + .checkbox {
-  background-color: maroon;
+  background-color:  #e79265;
 }
 
 #toggle:checked ~ .menu {
-  box-shadow: 0px 0px 0px 100vmax maroon;
+  box-shadow: 0px 0px 0px 100vmax #e79265;
   z-index: 1;
 }
 
@@ -284,31 +287,28 @@ main ul li a {
 }
 
 /*Footer*/
+/* FOOTER */
 footer {
-  width: 100%;
-  min-height: 250px;
-  background: rgba(129, 64, 64, 0.363);
+  width: 98.7vw;
+  display: flex;
+  margin-top: 15vh;
+  border-top: 1px solid #5e2e15;
+}
+ 
+.footer-titulo h1 {
+  font-size: 20vw;
   display: flex;
 }
 
-.footer-titulo h1 {
-  font-size: 15vw;
-display: flex;
-}
-
 footer .boxs {
-  width: 320px;
-  min-height: 150px;
-  padding: 20px;
+  width: 35vw;
+  padding: 15px;
 }
 
-footer .boxs:nth-child(4) {
-  width: 400px;
-}
 
 .boxs h2 {
-color: maroon;
-margin-bottom: 20px;
+color: #5e2e15;
+margin-bottom: 1vw;
 }
 
 .boxs ul li {
@@ -317,15 +317,43 @@ margin-bottom: 20px;
 }
 
 .boxs ul li a {
-  color: maroon;
+  color:black;
   text-decoration: none;
 }
 
-.boxs ul li a:hover {
-  color: maroon;
+.img-certificado{
+    width: 5vw;
+    height: 5vh;
 }
 
-.boxs p {
-  color: maroon;
-  text-align: justify;
+#certificados{
+  margin-left: 1.7vw;
+
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-device-width : 480px){
+  
+  h1{
+      font-size: 14px;
+  }
+  table{
+      font-size: 9px;
+  }
+  
+  table tr td{
+      font-size: 12px;
+  }
+
+.botao-finalizar-compras{
+  margin-left: 60vw;
+  padding: 10px 25px;
+  font-size: 10px;
+}
+.botao-continuar-comprando{
+  margin-left: 5vw;
+  padding: 10px 25px;
+  font-size: 10px;
+}
+
 }
