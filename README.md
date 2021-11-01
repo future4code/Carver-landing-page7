@@ -18,4 +18,4 @@ HTML e CSS
 **Participantes**:
 Alessandra, Juliana e Soraia
 
-**Link do projeto**: [clique aqui](mean-surprise.surge.sh)
+**Link do projeto**: [clique aqui](https://mean-surprise.surge.sh/index.html)
