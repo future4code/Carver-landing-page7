@@ -2,8 +2,9 @@
 
 h1{
     margin-left: 2vw;
-    margin-bottom: 3vh;
+    margin-bottom: 8vh;
     margin-top: 3vh;
+    color: rgb(65, 3, 3);
 }
 
 .img-refeicao{
@@ -120,9 +121,11 @@ header {
    position: absolute;
   }
   .img_logo{
+
     width: 200%;
 
   }
+
   #list-container {
     margin-top: auto;
   }

@@ -1,193 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+  
 
-
-.links{
-width: 100%;
-height: 50px;
-position: fixed;
-display: flex;
-}
-
-.links label{
-    padding: 10px 0;
-    flex-grow: 1;
-    cursor: pointer;
-    transition: all .4s;
-    text-align: center;
-    font-family: 'Arial';
-    font-size: 25px;
-    color: #51260e;
- 
-}
- .links label:hover{
-    background-color: #d1b7a6;
-}
-
-.scroll{
-display: flex;
-width: 100vw;
-height: 100vh;
-overflow: hidden;
-}
-
-.sections{
-
-transition:  all .4s;
-}
-
-input{
-display: none;
-}
-.bloco{
-width: 100vw;
-height: 80vh;
-justify-content: center;
-align-items: center;
-display: flex;
-}
-
-#pratosExecutivos{
-background-color: white;
-}
-
-#massas{
-background-color: white;
-}
-#caldos{
-background-color: white;
-}
-#doces{
-background-color: white;
-}
-#kits{
-background-color: white;
-}
-#menu{
-    background-color: white;
-}
-
-#rd_massas:checked ~ .sections{
-margin-top: -100vh;
-}
-#rd_caldos:checked ~ .sections{
-margin-top: -200vh;
-}
-
-#rd_doces:checked ~ .sections{
-margin-top: -300vh;
-}
-
-#rd_kits:checked ~ .sections{
-margin-top: -400vh;
-}
-#rd_menu:checked ~ .sections{
-    margin-top: -500vh;
-    }
-h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.nav_item{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin-top: 0;
-    font-size: 1.5em;
-}
-
-.button_item :hover{
-    background-color:rgba(172, 158, 143, 0.667);
-}
-.button_item :active{
-    color: #51260e;
-}
-.card-refeicoes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0 0 0.8em #51260e;
-}
-.img-refeicao{
-    width: 50%;
-    height: 50%;
-}
-.bloco{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin: 0 1em; 
-    padding: 0;
-    font-size: 1.5em;
-    text-align: center;
-}
-.bloco-kits{
-    display: grid;
-    grid-template-columns: (4, 0.5fr);
-    gap: 20px;
-    margin: 0 1em; 
-    padding: 0;
-    font-size: 1.5em;
-    text-align: center;
-}
-.card-refeicoes p{
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 80%;
-}
-.card-refeicoes button{
-    padding: 0.4em 5em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    background-color: #814f34;
-    color: white;
-    font-size: 0.6em;
-}
-.card-refeicoes button:hover{
-    background-color: #ad4c17;
-}
-
-.card-refeicoes button:active{
-    background-color: #51260e;
-}
-.preco{
-    font-size: 0.85em;
-}
-.h2_prato-executivo{
-    margin-top: 8%;
-}
-.h2_massas{
-    margin-top: 5%;
-}
-.h2_caldo{
-    margin-top: 5%;
-}
-.h2_doces{
-    margin-top: 10%;
-}
-.h2_kits{
-    margin-top: 8%;
-}
-.card-refeicoes-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 60%;
-    
-    
-}
-.img-menu{
-    width: 20vw;
-    
-    
-}
 .link_home{
     font-size: 50%;
 }
@@ -235,3 +47,17 @@ footer {
 	margin-left: 1.5vw;
   
   }
+
+}}
+
+/* body{
+    overflow-y:auto;
+    height: 100vh;
+    width: 100vw;
+
+} */
+
+
+  
+
+
