@@ -5,59 +5,299 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refeições</title>
-    <link rel="stylesheet" type="text/css" href="refeicoes.css">
+    <title>4Food</title>
+    <link rel="stylesheet" href="refeicoes.css">
+
 </head>
 
 <body>
-    <header class="header-container">
-        <div class="logo">
-          <img src="./img/4-food.png" alt="Logo da empresa">
-        </div>
-        <div class="header">
-          <div class="checkbox-container">
-            <div class="checkbox-wraper">
-              <input type="checkbox"  id="toggle">
-              <label class="checkbox" for="toggle">
-                <div class="trace"></div>
-                <div class="trace"></div>
-                <div class="trace"></div>
-              </label>
-              <div class="menu" ></div>
-              <nav class="menu-itens">
-                <ul>
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-          
-                  <li>
-                    <a href="itens_mercado.html">Itens de mercado</a>
-                  </li>
-          
-                  <li>
-                    <a href="./refeicoes.html">Refeições</a>
-                  </li>
-          
-                  <li>
-                    <a href="quem_somos.html">Quem somos</a>
-                  </li>
-          
-                </ul>
-              </nav>
-            </div>
-  
-          </div>
-  
-        </div>
-      
-      </header>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
+
+
+    <main>
+        <nav class="links">
+            <label for="rd_pratosExecutivos">Pratos Executivos</label>
+            <label for="rd_massas">Massas</label>
+            <label for="rd_caldos">Caldos</label>
+            <label for="rd_doces">Doces</label>
+            <label for="rd_kits">Kits</label>
+            <label for="rd_menu">Menu</label>
+        </nav>
+
+
+        <div class="scroll">
+
+            <input type="radio" name="grupo" id="rd_pratosExecutivos" checked="true">
+            <input type="radio" name="grupo" id="rd_massas">
+            <input type="radio" name="grupo" id="rd_caldos">
+            <input type="radio" name="grupo" id="rd_doces">
+            <input type="radio" name="grupo" id="rd_kits">
+            <input type="radio" name="grupo" id="rd_menu">
+
+
+
+
+            <section class="sections">
+
+
+                <h2 class="h2_prato-executivo">Pratos Executivos</h2>
+                <section class="bloco" id="pratosExecutivos">
+                    <nav class="nav_item">
+                        <div class="card-refeicoes">
+                            <img src="https://img.cybercook.com.br/receitas/940/strogonoff-aos-4-queijos-2.jpeg"
+                                class="img-refeicao">
+                            <p>Strogonoff de frango</p>
+                            <p class="preco"> 200g R$15,00</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://ogimg.infoglobo.com.br/rio/bairros/24032758-07d-15c/FT1086A/file-mignon-com-fettuccine-ao-molho-pesto-artesanal-Carmelo.jpg"
+                                alt="File mingon" class="img-refeicao">
+                            <p>Filé Mignon com Talharim</p>
+                            <p class="preco">200g R$20,00</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://assets.instabuy.com.br/ib.item.image.big/b-af1a2066d77041e0b705f45e0d3db703.jpeg"
+                                alt="Frango xadrez" class="img-refeicao">
+                            <p>Frango Xadrez</p>
+                            <p class="preco">200g R$20,00</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://img.itdg.com.br/tdg/images/recipes/000/043/297/324510/324510_original.jpg?w=1200"
+                                alt="Posta de Salmão" class="img-refeicao">
+                            <p>Posta de Salmão Assado</p>
+                            <p class="preco">200g R$25,00</p>
+                            <button>Comprar</button>
+                        </div>
+                    </nav>
+                </section>
+
+                <h2 class="h2_massas">Massas</h2>
+                <section class="bloco" id="massas">
+                    <nav class="nav_item">
+                        <div class="card-refeicoes">
+                            <img src="https://assets.instabuy.com.br/ib.item.image.large/l-af6f6aa471874973aead77fccb4feecd.jpeg"
+                                alt="Lasanha" class="img-refeicao">
+                            <p>Lasanha à Bolonhesa</p>
+                            <p class="preco">200g R$20,00</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://gomesdacosta.com.br/app/uploads/2017/04/talharim-mobile.jpg"
+                                alt="Talharim" class="img-refeicao">
+                            <p>Talharim</p>
+                            <p class="preco">200g R$18,99</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://assets.instabuy.com.br/ib.item.image.big/b-355ed0236f494475950ce1da0069200a.jpeg"
+                                alt="Nhoque" class="img-refeicao">
+                            <p>Nhoque</p>
+                            <p class="preco">200g R$15,99</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://assets.instabuy.com.br/ib.item.image.big/b-81e4ddb764da4632839915a2ddb456d0.jpeg"
+                                alt="Ravióli" class="img-refeicao">
+                            <p>Ravióli de Frango</p>
+                            <p class="preco">200g R$21,99</p>
+                            <button>Comprar</button>
+                        </div>
+                    </nav>
+
+                </section>
+
+                <h2 class="h2_caldo">Caldos</h2>
+                <section class="bloco" id="caldos">
+                    <nav class="nav_item">
+                        <div class="card-refeicoes">
+                            <img src="https://www.agoramt.com.br/wp-content/uploads/2015/06/CALDO-DE-MILHO.jpg"
+                                alt="Caldo de Milho com Frango" class="img-refeicao">
+                            <p>Caldo de Milho com Frango</p>
+                            <p class="preco">350g R$14,99</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://570341-1841894-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/10/caldo-vaca-atolada.jpg"
+                                alt="Caldo Vaca Atolada" class="img-refeicao">
+                            <p>Caldo de Vaca Atolada</p>
+                            <p class="preco">350g R$17,99</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://s2.glbimg.com/REynVptHnRvdQC3gArskaGu62_Q=/e.glbimg.com/og/ed/f/original/2018/06/22/canja2.jpg"
+                                alt="Canja de Galinha" class="img-refeicao">
+                            <p>Canja de Galinha</p>
+                            <p class="preco">350g R$15,99</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/93BE07A5-EAE7-4E75-A958-C1F383BE1780/Derivates/B94EE875-00BF-4413-8332-6BB6612FE192.jpg"
+                                alt="Caldo Verde" class="img-refeicao">
+                            <p>Caldo Verde</p>
+                            <p class="preco">350g R$12,99</p>
+                            <button>Comprar</button>
+                        </div>
+                    </nav>
+                </section>
+
+                <h2 class="h2_doces">Doces</h2>
+                <section class="bloco" id="doces">
+                    <nav class="nav_item">
+                        <div class="card-refeicoes">
+                            <img src="https://www.sabornamesa.com.br/media/k2/items/cache/2660be2b2df02c41fc17abdbfc676d66_XL.jpg"
+                                alt="Pudim de Leite" class="img-refeicao">
+                            <p>Pudim de Leite</p>
+                            <p class="preco">60g R$8,99</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://assets.instabuy.com.br/ib.item.image.big/b-443c0c72ad6245b081f5e03db194f951.jpeg"
+                                alt="Brigadeiro Belga" class="img-refeicao">
+                            <p>Brigadeiro Belga</p>
+                            <p class="preco">15g R$3,00</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://italianismo.com.br/wp-content/uploads/2020/11/Tiramisu%CC%80.jpg"
+                                alt="Tiramisú" class="img-refeicao">
+                            <p>Tiramisú</p>
+                            <p class="preco">90g R$13,50</p>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="card-refeicoes">
+                            <img src="https://cdn.guiadacozinha.com.br/wp-content/uploads/2019/10/mousse-limao-farofa.jpg"
+                                alt="Mousse de Limão" class="img-refeicao">
+                            <p>Mousse de Limão</p>
+                            <p class="preco">100g R$9,99</p>
+                            <button>Comprar</button>
+                        </div>
+                    </nav>
+                </section>
+
+                <h2 class="h2_kits">Kits</h2>
+                <section class="bloco" id="kits">
+                    <nav>
+                        <!-- <div class="card-refeicoes">
+                        <img src="https://cdn.octoshop.com.br/lojas/marmitasdoze/uploads_produto/kit-5-dias-almoco-e-jantar-tradicional-60424a1168b04.jpg"
+                            alt="Kit 5 dias" class="img-refeicao">
+                        <p>Kit (5 dias)</p>
+                        <p> R$350,00</p><button>Comprar</button>
+                    </div>
+
+                    <div class="card-refeicoes">
+                        <img src="https://cdn.octoshop.com.br/lojas/damamaefitness/uploads_produto/26-5fd3d3df5e4df.jpg"
+                            alt="Kit 7 dias" class="img-refeicao">
+                        <p>Kit (7 dias)</p>
+                        <p> R$400,00</p><button>Comprar</button>
+                    </div> -->
+                        <div class="card-refeicoes">
+                            <img src="https://cdn.octoshop.com.br/lojas/lightmeals/uploads_produto/monte-seu-kit-5ba04f89da56b.jpg"
+                                alt="Kit 7 dias" class="img-refeicao">
+                            <p>Monte seu kit(7 dias</p>
+                            <p> R$400,00</p><button>Comprar</button>
+                        </div>
+                    </nav>
+                </section>
+
+                <section>
+                    <section class="bloco" id="menu">
+                        <nav class="nav_item">
+                            <div class="card-refeicoes-menu">
+                                <img  class="img-menu" src="img/menu-home.JPG"><a class="link_home" href="index.html">Clique aqui</a>
+                            </div>
+
+                            <div class="card-refeicoes-menu">
+                                <img  class="img-menu" src="img/menu-mercado.JPG"><a class="link_home" href="itens_mercado.html">Clique aqui</a>
+                            </div>
+
+                            <div class="card-refeicoes-menu">
+                                <img  class="img-menu" src="img/menu-quem-somos.JPG"><a class="link_home" href="quem_somos.html">Clique aqui</a>
+                            </div>
+                            <div class="card-refeicoes-menu">
+                                <img  class="img-menu" src="img/menu-carrinho.JPG"><a class="link_home" href="carrinhoDeCompras.html">Clique aqui</a>
+                            </div>
+
+                    </section>
+
+
+                </section>
+
+
+        </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="boxs">
+            <h2>Início</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="itens_mercado.html">Produtos</a></li>
+                <li><a href="refeicoes.html">Refeições</a></li>
+                <li><a href="carrinhoDeCompras.html">Carrinho de Compras</a></li>
+
+            </ul>
+        </div>
+
+        <div class="boxs">
+            <h2>Suporte</h2>
+            <ul>
+                <li><a>Contato: 4food@gmail.com</a></li>
+                <li><a href="https://www.instagram.com/">Redes Sociais</a></li>
+                <li><a href="quem_somos.html">Quem somos</a></li>
+            </ul>
+        </div>
+
+        <div class="boxs">
+            <h2>Premiações</h2>
+            <ul>
+                <li id="certificados"><a href="#"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzeS8tyi6ChxY6Y-lgUdA47dzvrdNSxC20bjYD9QuUv5Ud_cUDgRNAXIcvlHISY8qcIU&usqp=CAU"
+                            alt="Certificado de mehor empresa" class="img-certificado"></a></li>
+                <li id="certificados"><a href="#"><img
+                            src="https://blog.gazinatacado.com.br/wp-content/uploads/2019/11/Gazin-melhor-empresa-Parana%CC%81-2.jpeg"
+                            alt="Certificado de mehor empresa" class="img-certificado"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
+
+=======
+    <header>
+        <img class="logo" src="./img/4-food.png" alt="foto da logo">
+        <nav>
+            <button><a class="links" href="index.html"><p><b>Home</b></p></a></button>
+            <button><a class="links" href="itens_mercado.html"><p><b>Itens de mercado</b></p></a></button>
+            <button><a class="links" href="refeicoes.html"><p><b>Refeições</b></p></a></button>
+            <button><a class="links" href="quem_somos.html"><p><b>Quem somos</b></p></a></button>
+        </nav>
+      </header>
+      <br>
+      
+      
     <nav class="links">
         <label for="rd_pratosExecutivos">PRATOS EXECUTIVOS</label>
         <label for="rd_massas">MASSAS</label>
@@ -236,38 +476,9 @@
         </section>
 
     </section>
+   
 
-        </main>
-        <footer class="footer navbar-fixed-bottom">
-  
-            <div class="boxs">
-                <h2>Início</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="itens_mercado.html">Produtos</a></li>
-                    <li><a href="refeicoes.html">refeições</a></li>
-                  
-                </ul>
-            </div>
-        
-            <div class="boxs">
-              <h2>Suporte</h2>
-                <ul>
-                    <li><a href="gmail.com">Contato</a></li>
-                    <li><a href="https://www.instagram.com/">Redes Sociais</a></li>
-                    <li><a href="quem_somos.html">Quem somos</a></li>
-                </ul>
-            </div>
-        
-            <div class="boxs">
-              <h2>Informações adicionais</h2>
-                <ul>
-                  <li><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, illum?</a></li>
-                  
-                </ul>
-            </div>
-            </footer>
-        
+    
 
 </body>
 
