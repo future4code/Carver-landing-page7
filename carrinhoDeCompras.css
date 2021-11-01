@@ -121,10 +121,11 @@ header {
    position: absolute;
   }
   .img_logo{
-    width: 250%;
+
+    width: 200%;
 
   }
-  
+
   #list-container {
     margin-top: auto;
   }
