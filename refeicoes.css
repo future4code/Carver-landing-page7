@@ -8,6 +8,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  
 }
 button {
   font-size: 1em;
