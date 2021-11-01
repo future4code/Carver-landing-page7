@@ -47,6 +47,9 @@ header .logo {
   top: 0;
  position: absolute;
 }
+.img_logo{
+  width: 250%;
+}
 
 #list-container {
   margin-top: auto;
@@ -170,11 +173,11 @@ top: 48px;
 }
 
 #toogle:checked + .checkbox {
-  background-color: maroon;
+  background-color:  #e79265;
 }
 
 #toggle:checked ~ .menu {
-  box-shadow: 0px 0px 0px 100vmax maroon;
+  box-shadow: 0px 0px 0px 100vmax #e79265;
   z-index: 1;
 }
 
@@ -208,7 +211,7 @@ top: 48px;
 }
 
 .content .textBox h2 span {
-  color: maroon;
+  color: rgb(90, 6, 6);
   font-size: 1.2em;
   font-weight: 900;
 }
@@ -221,7 +224,7 @@ top: 48px;
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
-  background-color: maroon;
+  background-color: rgb(90, 6, 6);
   color: #fff;
   border-radius: 40px;
   font-weight: 500;
